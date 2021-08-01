@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PET LAY</title>
+        <link rel="icon" href="images/peticon.png">
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+
+        <script src="lightbox/ekko-lightbox.js"></script>
+        <link rel="stylesheet" href="lightbox/ekko-lightbox.css"/>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>  
+              
+        <link rel="stylesheet" href="custom/custom.css"/>
+
+        <meta name="author" content="Ritik Sharma"/>
+        <meta name="Description" content="This is a online pet shop website"/>
+        <meta name="Keyword" content="Best Online pet shop"/>
+    </head>
+    <style>
+        body{
+            background-image: url(images/i4.png);
+            background-repeat: repeat;
+        }
+    </style>
+    <body>
+        <nav class="navbar navbar-expand-sm sticky-top bg-primary">
+            <a class="navbar-brand" href="PeT_laY.htm"></a><img src="images/peticon.png" width="40px"><span class="c-logo">PET LAY &nbsp;</span>
+            <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon "> <i class="fas fa-sort-down text-white"></i> </span>
+            </button>
+            <div class="navbar-collapse" id="collapsibleNavbar">
+                <form class="form-inline">
+                    <input type="text" class="form-control" placeholder="search">
+                    <button type="submit" class="form-control btn btn-secondary"><i class="fas fa-search"></i></button>
+                </form>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#m1" href="">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.htm">ABOUT US</a>
+                        
+                    </li>
+                </ul>
+                <div>
+                    <a class="text-dark" href="tel:+91-9971410252">
+                        <h5><i class="fas fa-mobile-alt"></i>+91-9971410252</h5>
+                    </a>
+                </div>
+            </div>          
+        </nav>
+        <section>
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1" ></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/img2.jpg" class="img-fluid" height="300px">
+                    <div class="carousel-caption">
+                        <h3>1</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/img3.jpg" class="img-fluid" height="300px">
+                    <div class="carousel-caption">
+                        <h3>2</h3>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="images/img4.jpg" class="img-fluid" height="300px">
+                    <div class="carousel-caption">
+                        <h3>3</h3>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </section>
+
+        <section class="mt-5 container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img class="img-fluid c-pharmacy" src="images/buy.jpg">
+                </div>
+                <div class="col-md-6">
+                    <h3>Best Site To Buy Your Companion</h3>
+                    <p>- Pet are the most lovable thing we can think of</p>
+                    <p>- You can buy them from here</p>
+                    <h2 class="text-danger"><strike>&#8377 18,000</strike></h2>
+                    <h2 class="text-danger">FREE*</h2>
+                    <p>A tame animal kept as a companion rather than for work</p>
+                    <a href="tel-+91-9971410252" class="btn btn-success mt-4 c-button">Call Now <i class="fas fa-arrow-alt-circle-right"></i></a>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5 container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid c-round" src="images/Pet1.jpg">
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid c-round" src="images/Pet2.jpg">
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid c-round" src="images/Pet3.jpg">
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid c-round" src="images/Pet4.jpg">
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5 container">
+            <h2 class="text-center" >That's How you help...</h2>
+            <hr/>
+            <div class="row">
+
+                <div class="col-md-6 p-5 c-fill">
+                    <h3>Ancient History.</h3>
+                    <p class="text-danger">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </p>
+                    <p>Ancient Greeks and Romans would openly grieve for the loss of a dog, evidenced by inscriptions left on tombstones commemorating their loss. The surviving epitaphs dedicated to horses are more likely to reference a gratitude for the companionship that had come from war horses rather than race horses. The latter may have chiefly been commemorated as a way to further the owner's fame and glory.In Ancient Egypt, dogs and baboons were kept as pets and buried with their owners. Dogs were given names, which is significant as Egyptians considered names to have magical properties.</p>
+                </div>
+
+                <div class="col-md-6 p-5 c-fill">
+                    <h3>PETs As Companion.</h3>
+                    <p class="text-danger">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </p>
+                    <p>A pet, or companion animal, is an animal kept primarily for a person's company or entertainment rather than as a working animal, livestock or a laboratory animal. Popular pets are often considered to have attractive appearances, intelligence and relatable personalities, but some pets may be taken in on an altruistic basis (such as a stray animal) and accepted by the owner regardless of these characteristics.</p>
+                </div>
+
+                <div class="col-md-6 p-5 c-fill">
+                    <h3>HEALTH Benefits.</h3>
+                    <p class="text-danger">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </p>
+                    <p>It is widely believed among the public, and among many scientists, that pets probably bring mental and physical health benefits to their owners; a 1987 NIH statement cautiously argued that existing data was "suggestive" of a significant benefit.A recent dissent comes from a 2017 RAND study, which found that at least in the case of children, having a pet per se failed to improve physical or mental health by a statistically significant amount; instead, the study found children who were already prone to being healthy were more likely to get pets in the first place.Unfortunately, conducting long-term randomized trials to settle the issue would be costly or infeasible.</p>
+                </div>
+
+                <div class="col-md-6 p-5 c-fill">
+                    <h3>Connection With Community.</h3>
+                    <p class="text-danger">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </p>
+                    <p>In addition to providing health benefits for their owners, pets also impact the social lives of their owners and their connection to their community. There is some evidence that pets can facilitate social interaction.Assistant Professor of Sociology at the University of Colorado at Boulder, Leslie Irvine has focused her attention on pets of the homeless population. Her studies of pet ownership among the homeless found that many modify their life activities for fear of losing their pets. Pet ownership prompts them to act responsibly, with many making a deliberate choice not to drink or use drugs, and to avoid contact with substance abusers or those involved in any criminal activity for fear of being separated from their pet. Additionally, many refuse to house in shelters if their pet is not allowed to stay with them.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="mt-5 container">
+            <h2 class="text-center">Pet Image Gallery</h2>
+            <hr/>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href=""><img class="img-fluid c-rund" src="images/p1.jpg"></a>
+                </div>
+                <div class="col-md-4">
+                    <a href=""><img class="img-fluid c-rund" src="images/p2.jpg"></a>
+                </div>
+                <div class="col-md-4">
+                    <a href=""><img class="img-fluid c-rund" src="images/p3.jpg"></a>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="mt-5 bg-primary p-5">
+            <div class="row">
+                <div class="col-md-4 ">
+                    <h3>PET LAY</h3>
+                    <p>This is a website where you can find your ideal Pet and you both can be the best companions.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>PET LAY</h3>
+                    <ul class="link c-footer">
+                        <li>
+                            <a href="" ><i class="fa fa-arrow-right"></i> HOME</a>
+                        </li>
+                        <li>
+                            <a href="" data-toggle="modal" data-target="#m1" ><i class="fa fa-arrow-right"></i> CONTACT</a>
+                        </li>
+                        <li>
+                            <a href="about.htm" ><i class="fa fa-arrow-right"></i> ABOUT US</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Location</h3>
+                    <p>
+                        <i class="fa fa-map-marker"></i>
+                        <a class="c-map" href="https://goo.gl/maps/JAQCcTxc2wf8NrRTA" target="_blank"><b>GO TO MAP</b></a>
+                        Naveen Nagar , Ojpura, Saharanpur ,Uttar Pradesh ,247001
+                    </p>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.6251057457725!2d77.53904831495593!3d29.9614602819126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eea9491e997cd%3A0x9d8370b96ac20305!2sSaharanpur!5e0!3m2!1sen!2sin!4v1618770712457!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+            <footer>
+            <p>PET LAY &copy; 2021 , Design & Develop by Ritik Sharma</p>
+
+            <figure>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+            </figure>
+
+            </footer>
+
+        </section>
+
+        <a id="mytopbtn"><i class="fas fa-chevron-circle-up display-4 text-dark"></i></a>
+        <!-- <a id="topbutn"><i class="fa fa-question-circle fa-3x c-dilg"></i></a> -->
+
+
+        <div class="modal fade" id="m1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h4 class="modal-title">CONTACT</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <p>
+                            <i class="fa fa-map-marker"></i>
+                            <a class="c-map" href="https://goo.gl/maps/JAQCcTxc2wf8NrRTA" target="_blank"><b>GO TO MAP</b></a>
+                            Naveen Nagar , Ojpura, Saharanpur ,Uttar Pradesh ,247001
+                            <ul>
+                                <li><h4>Phone No.</h4>
+                                    <a class="text-dark" href="tel:+91-9971410252">
+                                        <h4><i class="fas fa-mobile-alt"></i>+91-9971410252</h4>
+                                    </a>
+                                </li>
+                                <li>
+                                    <h4>Email Id :-<br><i class="fas fa-envelope-square"></i> ritikfeb60@gmail.com</h4>
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+    <script>
+        //script for light box
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
+
+    <script>
+
+      $(window).scroll(function() {
+          if ($(this).scrollTop()) {
+              $('#mytopbtn').fadeIn();
+          } else {
+              $('#mytopbtn').fadeOut();
+          }
+      });
+      //script for scroll to top
+      $("#mytopbtn").click(function () {
+        $("html, body").animate({scrollTop: 0}, 1000);
+      });
+
+    </script>
+
+    <!-- <script>
+
+        $(window).scroll(function() {
+            if ($(this).scrollTop()) {
+                $('#topbutn').fadeIn();
+            } else {
+                $('#topbutn').fadeOut();
+            }
+        });
+
+        //script for scroll to top
+        $("#topbutn").click(function () {
+        $("html, body").animate({scrollTop: 0}, 1000);
+        });
+
+    </script> -->
+
+    
+
+</html>
